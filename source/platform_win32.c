@@ -170,6 +170,8 @@ b32 QPL_Init()
 
 	s_platform.counter_start = QPL_GetPerformanceCounter();
 	s_platform.counter_frequency = QPL_GetPerformanceFrequency();
+
+	return true;
 }
 
 void QPL_Quit()

@@ -23,6 +23,7 @@ typedef struct
 
 typedef enum
 {
+	QPL_KeyModifiers_None = 0,
 	QPL_KeyModifiers_Shift = 1 << 0,
 	QPL_KeyModifiers_Ctrl = 1 << 1,
 	QPL_KeyModifiers_Alt = 1 << 2,
